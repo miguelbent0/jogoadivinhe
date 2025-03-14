@@ -21,6 +21,10 @@ function verificarChute() {
         exibirTextoNaTela('p', 'Por favor, insira um número menor que 20.');
         return;
     }
+    if (chute < numeroLimite) {
+        exibirTextoNaTela('p', 'Por favor, insira um número maior que 0.');
+        return;
+    }
  
     if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Acertou!');

@@ -7,14 +7,13 @@
 }
 
 body {
-    background: linear-gradient(135deg, #42003a, #340052);
+    background-image: url("../img/jogoAdivinhe.png") ;
+    
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-/* Container Principal */
 .container {
     width: 90%;
     max-width: 500px;
