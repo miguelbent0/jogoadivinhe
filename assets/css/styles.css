@@ -8,7 +8,6 @@
 
 body {
     background-image: url("../img/jogoAdivinhe.png") ;
-    
     height: 100vh;
     display: flex;
     align-items: center;
